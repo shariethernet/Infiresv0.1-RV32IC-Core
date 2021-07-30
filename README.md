@@ -2,7 +2,7 @@
 
 ## About
 
-"Infires" is a RV32X Series processor cores, written in TL-Verilog. Due the unique features in  Transaction Level Verilog, these cores can easily be modified to support other extensions or enhanced with branch predictors, hazard handlers etc., Due to the timing abstract nature of TL-Verilog, the pipelines can be quickly reconfigured or parametrised too.  There are four cores developed namely
+"Infires" is a RV32X Series processor cores, written in TL-Verilog. Due the unique features in  Transaction Level Verilog, these cores can easily be modified to support other extensions or enhanced with branch predictors, hazard handlers etc., Due to the timing abstract nature of TL-Verilog, the pipelines can be quickly reconfigured or parametrised too. There are four cores developed namely
 
 ## Variants
 
