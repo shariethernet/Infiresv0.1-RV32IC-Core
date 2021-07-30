@@ -11,7 +11,7 @@
 
 ## General Block Diagram of the core
 
-![](./img/1.png)
+![](./img/1.PNG)
 
 1. Program Counter
 1. Instruction Memory
