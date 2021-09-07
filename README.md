@@ -20,7 +20,8 @@
 1. Decode Logic
 1. Register File
 1. Arithmetic and Logic Unit
-1. Data Memory
+1. Write to Register File
+2. Data Memory
 
 ## Pipeline Stages
 
