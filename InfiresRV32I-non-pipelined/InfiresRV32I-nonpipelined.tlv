@@ -134,7 +134,7 @@
    $is_sra = $dec_bits ==? 11'b11010110011;
    $is_or = $dec_bits ==? 11'b01100110011;
    $is_and = $dec_bits ==? 11'b01110110011;
-   $is_load    =  $opcode   ==  7'b0000011 ;       ;
+   $is_load    =  $opcode   ==  7'b0000011;       
    //Our implementation will treat all loads and all stores the same, so assign $is_load based on opcode only. $is_s_instr already identifies stores, so we do not need any additional decode logic for stores.
    `BOGUS_USE($is_beq $is_bne $is_blt $is_bge $is_bltu $is_bgeu $is_addi $is_add $is_lui $is_auipc $is_jal $is_jalr $is_slti $is_sltiu $is_xori $is_ori $is_andi $is_slli $is_srli $is_srai $is_sub $is_sll $is_slt $is_sltu $is_xor $is_srl $is_sra $is_or $is_and $is_load)
    

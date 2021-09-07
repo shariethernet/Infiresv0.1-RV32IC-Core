@@ -1,0 +1,1173 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Sep  8 01:48:21 2021
+# Process ID: 20008
+# Current directory: D:/RISC-V/risc-v-core/FPGA_Implementation
+# Command line: vivado.exe -mode batch -source impl_core.tcl
+# Log file: D:/RISC-V/risc-v-core/FPGA_Implementation/vivado.log
+# Journal file: D:/RISC-V/risc-v-core/FPGA_Implementation\vivado.jou
+#-----------------------------------------------------------
+source impl_core.tcl
+# set design mythcore_test
+# set cons ./constraints.xdc
+# set outputDir ./out/FPGA_core
+# file mkdir $outputDir
+# read_verilog -sv ./out/mythcore_test.sv
+# read_verilog ./includes/clk_gate.v
+# read_verilog -sv ./includes/pseudo_rand.sv
+# set_property include_dirs {./includes ./} [current_fileset]
+# read_xdc $cons
+# synth_design -top core -part xc7z020clg484-1 -retiming
+Command: synth_design -top core -part xc7z020clg484-1 -retiming
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20324 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 415.141 ; gain = 96.082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'core' [D:/RISC-V/risc-v-core/FPGA_Implementation/out/mythcore_test.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'clk_gate' [D:/RISC-V/risc-v-core/FPGA_Implementation/includes/clk_gate.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'clk_gate' (1#1) [D:/RISC-V/risc-v-core/FPGA_Implementation/includes/clk_gate.v:33]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[0].CPU_Xreg_value_a5_reg[0] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[1].CPU_Xreg_value_a5_reg[1] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[2].CPU_Xreg_value_a5_reg[2] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[3].CPU_Xreg_value_a5_reg[3] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[4].CPU_Xreg_value_a5_reg[4] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[5].CPU_Xreg_value_a5_reg[5] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[6].CPU_Xreg_value_a5_reg[6] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[7].CPU_Xreg_value_a5_reg[7] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[8].CPU_Xreg_value_a5_reg[8] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[9].CPU_Xreg_value_a5_reg[9] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[10].CPU_Xreg_value_a5_reg[10] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[11].CPU_Xreg_value_a5_reg[11] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[12].CPU_Xreg_value_a5_reg[12] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[13].CPU_Xreg_value_a5_reg[13] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[14].CPU_Xreg_value_a5_reg[14] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[15].CPU_Xreg_value_a5_reg[15] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[16].CPU_Xreg_value_a5_reg[16] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[18].CPU_Xreg_value_a5_reg[18] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[19].CPU_Xreg_value_a5_reg[19] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[20].CPU_Xreg_value_a5_reg[20] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[21].CPU_Xreg_value_a5_reg[21] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[22].CPU_Xreg_value_a5_reg[22] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[23].CPU_Xreg_value_a5_reg[23] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[24].CPU_Xreg_value_a5_reg[24] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[25].CPU_Xreg_value_a5_reg[25] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[26].CPU_Xreg_value_a5_reg[26] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[27].CPU_Xreg_value_a5_reg[27] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[28].CPU_Xreg_value_a5_reg[28] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[29].CPU_Xreg_value_a5_reg[29] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[30].CPU_Xreg_value_a5_reg[30] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[31].CPU_Xreg_value_a5_reg[31] was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:694]
+WARNING: [Synth 8-6014] Unused sequential element CPU_imem_rd_en_a1_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:447]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_beq_a4_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:480]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_beq_a5_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:481]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_bge_a4_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:486]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_bge_a5_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:487]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_bgeu_a4_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:492]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_bgeu_a5_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:493]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_blt_a4_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:498]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_blt_a5_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:499]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_bltu_a4_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:504]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_bltu_a5_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:505]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_bne_a4_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:510]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_bne_a5_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:511]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_sb_a2_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:547]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_sb_a3_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:548]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_sb_a4_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:549]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_sb_a5_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:550]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_sh_a2_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:553]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_sh_a3_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:554]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_sh_a4_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:555]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_sh_a5_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:556]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_sw_a2_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:603]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_sw_a3_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:604]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_sw_a4_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:605]
+WARNING: [Synth 8-6014] Unused sequential element CPU_is_sw_a5_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:606]
+WARNING: [Synth 8-6014] Unused sequential element CPU_rs1_valid_a2_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:648]
+WARNING: [Synth 8-6014] Unused sequential element CPU_rs2_valid_a2_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:654]
+INFO: [Synth 8-6155] done synthesizing module 'core' (2#1) [D:/RISC-V/risc-v-core/FPGA_Implementation/out/mythcore_test.sv:5]
+WARNING: [Synth 8-3331] design clk_gate has unconnected port func_en
+WARNING: [Synth 8-3331] design clk_gate has unconnected port pwr_en
+WARNING: [Synth 8-3331] design clk_gate has unconnected port gating_override
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 469.758 ; gain = 150.699
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 469.758 ; gain = 150.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 469.758 ; gain = 150.699
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/RISC-V/risc-v-core/FPGA_Implementation/constraints.xdc]
+CRITICAL WARNING: [Designutils 20-1307] Command '//These' is not supported in the xdc constraint file. [D:/RISC-V/risc-v-core/FPGA_Implementation/constraints.xdc:1]
+Finished Parsing XDC File [D:/RISC-V/risc-v-core/FPGA_Implementation/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/RISC-V/risc-v-core/FPGA_Implementation/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/core_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/core_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 843.668 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 843.668 ; gain = 524.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 843.668 ; gain = 524.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 843.668 ; gain = 524.609
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "CPU_Imem_instr_a1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 843.668 ; gain = 524.609
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 7     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 62    
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 79    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 22    
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module core 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 7     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 62    
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 79    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 22    
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-6014] Unused sequential element CPU_rd_valid_a4_reg was removed.  [D:/RISC-V/risc-v-core/FPGA_Implementation/mythcore_test_gen.sv:633]
+INFO: [Synth 8-5545] ROM "out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance 'CPU_inc_pc_a2_reg[0]' (FD) to 'CPU_pc_a2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'CPU_inc_pc_a3_reg[0]' (FD) to 'CPU_pc_a3_reg[0]'
+INFO: [Synth 8-3886] merging instance 'CPU_pc_a1_reg[4]' (FD) to 'CPU_imem_rd_addr_a1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'CPU_pc_a1_reg[5]' (FD) to 'CPU_imem_rd_addr_a1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'CPU_pc_a1_reg[2]' (FD) to 'CPU_imem_rd_addr_a1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'CPU_pc_a1_reg[3]' (FD) to 'CPU_imem_rd_addr_a1_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_bgeu_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_bge_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_bne_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_jump_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_jalr_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_jal_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_auipc_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_lui_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_sra_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_srl_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_sltu_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_sll_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_srai_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_srli_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_slli_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_sltiu_a2_reg)
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[5]' (FD) to 'CPU_imm_a2_reg[6]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[6]' (FD) to 'CPU_imm_a2_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[7]' (FD) to 'CPU_imm_a2_reg[8]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[8]' (FD) to 'CPU_imm_a2_reg[9]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[9]' (FD) to 'CPU_imm_a2_reg[10]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[10]' (FD) to 'CPU_imm_a2_reg[12]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[12]' (FD) to 'CPU_imm_a2_reg[13]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[13]' (FD) to 'CPU_imm_a2_reg[14]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[14]' (FD) to 'CPU_imm_a2_reg[15]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[15]' (FD) to 'CPU_imm_a2_reg[16]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[16]' (FD) to 'CPU_imm_a2_reg[17]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[17]' (FD) to 'CPU_imm_a2_reg[18]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[18]' (FD) to 'CPU_imm_a2_reg[19]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[19]' (FD) to 'CPU_imm_a2_reg[20]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[20]' (FD) to 'CPU_imm_a2_reg[21]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[21]' (FD) to 'CPU_imm_a2_reg[22]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[22]' (FD) to 'CPU_imm_a2_reg[23]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[23]' (FD) to 'CPU_imm_a2_reg[24]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[24]' (FD) to 'CPU_imm_a2_reg[25]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[25]' (FD) to 'CPU_imm_a2_reg[26]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[26]' (FD) to 'CPU_imm_a2_reg[27]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[27]' (FD) to 'CPU_imm_a2_reg[28]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[28]' (FD) to 'CPU_imm_a2_reg[29]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[29]' (FD) to 'CPU_imm_a2_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[30]' (FD) to 'CPU_imm_a2_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_sub_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_andi_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_and_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU_rs1_a2_reg[4] )
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[5]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[6]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[7]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[8]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[9]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[10]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[12]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[13]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[14]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[15]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[16]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[17]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[18]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[19]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[20]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[21]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[22]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[23]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[24]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[25]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[26]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[27]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[28]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[29]' (FD) to 'CPU_imm_a3_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[30]' (FD) to 'CPU_imm_a3_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_bgeu_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_bge_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_bne_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_jump_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_jalr_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_jal_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_auipc_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_lui_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_sra_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_srl_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_sltu_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_sll_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_srai_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_srli_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_slli_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_sltiu_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_sub_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_andi_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_and_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_valid_jump_a4_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_valid_jump_a5_reg)
+WARNING: [Synth 8-3332] Sequential element (CPU_is_jalr_a2_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_jalr_a3_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[31]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[30]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[29]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[28]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[27]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[26]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[25]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[24]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[23]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[22]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[21]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[20]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[19]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[18]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[17]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[16]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[15]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[14]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[13]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[12]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[11]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[10]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[9]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[8]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[7]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a1_reg[6]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[31]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[30]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[29]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[28]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[27]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[26]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[25]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[24]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[23]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[22]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[21]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[20]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[19]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[18]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[17]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[16]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[15]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[14]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[13]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[12]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[11]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[10]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[9]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[8]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[7]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a2_reg[6]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[31]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[30]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[29]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[28]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[27]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[26]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[25]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[24]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[23]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[22]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[21]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[20]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[19]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[18]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[17]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[16]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[15]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[14]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[13]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[12]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[11]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[10]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[9]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[8]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[7]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[6]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[5]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[4]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[3]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[2]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_pc_a3_reg[1]) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_jal_a2_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_jal_a3_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_auipc_a2_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_auipc_a3_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_lui_a2_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_lui_a3_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_sra_a2_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_sra_a3_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_srl_a2_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_srl_a3_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_sltu_a2_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_sltu_a3_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_sll_a2_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_sll_a3_reg) is unused and will be removed from module core.
+WARNING: [Synth 8-3332] Sequential element (CPU_is_srai_a2_reg) is unused and will be removed from module core.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_bltu_a2_reg)
+INFO: [Synth 8-3886] merging instance 'CPU_is_blt_a2_reg' (FD) to 'CPU_imm_a2_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_beq_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][0] )
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[0]' (FD) to 'CPU_rs2_a2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU_imm_a2_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_slt_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_slti_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_xori_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_xor_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_ori_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_or_a2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\L1gen_CPU_Xreg[0].CPU_Xreg_value_a4_reg[0][31] )
+INFO: [Synth 8-3886] merging instance 'CPU_is_blt_a3_reg' (FD) to 'CPU_imm_a3_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_bltu_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_beq_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CPU_imm_a3_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_slt_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_slti_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_xori_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_xor_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_ori_a3_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU_is_or_a3_reg)
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:32 . Memory (MB): peak = 843.668 ; gain = 524.609
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 843.668 ; gain = 524.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 843.668 ; gain = 524.609
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[4]' (FD) to 'CPU_rd_a2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a2_reg[31]' (FD) to 'CPU_imm_a2_reg[11]'
+INFO: [Synth 8-3886] merging instance 'CPU_is_load_a2_reg' (FD) to 'CPU_rs2_a2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[4]' (FD) to 'CPU_rd_a3_reg[4]'
+INFO: [Synth 8-3886] merging instance 'CPU_imm_a3_reg[31]' (FD) to 'CPU_imm_a3_reg[11]'
+INFO: [Synth 8-5816] Retiming module `core`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `core' done
+
+
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 867.633 ; gain = 548.574
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:46 . Memory (MB): peak = 867.633 ; gain = 548.574
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:46 . Memory (MB): peak = 867.633 ; gain = 548.574
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:46 . Memory (MB): peak = 867.633 ; gain = 548.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:46 . Memory (MB): peak = 867.633 ; gain = 548.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:46 . Memory (MB): peak = 867.633 ; gain = 548.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:46 . Memory (MB): peak = 867.633 ; gain = 548.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name              | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|core        | CPU_is_s_instr_a4_reg | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+-----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    24|
+|3     |LUT1   |     2|
+|4     |LUT2   |    97|
+|5     |LUT3   |     2|
+|6     |LUT4   |    84|
+|7     |LUT5   |   100|
+|8     |LUT6   |   565|
+|9     |MUXF7  |   256|
+|10    |MUXF8  |   128|
+|11    |SRL16E |     1|
+|12    |FDRE   |  1648|
+|13    |FDSE   |   112|
+|14    |IBUF   |     2|
+|15    |OBUF   |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  3030|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:46 . Memory (MB): peak = 867.633 ; gain = 548.574
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 285 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 867.633 ; gain = 174.664
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:46 . Memory (MB): peak = 867.633 ; gain = 548.574
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 410 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'core' is not ideal for floorplanning, since the cellview 'core' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/RISC-V/risc-v-core/FPGA_Implementation/constraints.xdc]
+CRITICAL WARNING: [Designutils 20-1307] Command '//These' is not supported in the xdc constraint file. [D:/RISC-V/risc-v-core/FPGA_Implementation/constraints.xdc:1]
+Finished Parsing XDC File [D:/RISC-V/risc-v-core/FPGA_Implementation/constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+178 Infos, 163 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:51 . Memory (MB): peak = 867.633 ; gain = 561.254
+# file mkdir $outputDir/syn/reports
+# write_checkpoint -force $outputDir/syn/post_synth
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.178 . Memory (MB): peak = 867.633 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/RISC-V/risc-v-core/FPGA_Implementation/out/FPGA_core/syn/post_synth.dcp' has been generated.
+# report_timing_summary -file $outputDir/syn/reports/post_synth_timing_summary.rpt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1272.820 ; gain = 405.188
+# report_power -file $outputDir/syn/reports/post_synth_power.rpt
+Command: report_power -file ./out/FPGA_core/syn/reports/post_synth_power.rpt
+WARNING: [Power 33-232] No user defined clocks were found in the design!
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+0 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+# opt_design -directive ExploreArea
+Command: opt_design -directive ExploreArea
+INFO: [Vivado_Tcl 4-136] Directive used for opt_design is: ExploreArea
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.853 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Starting Cache Timing Information Task
+Ending Cache Timing Information Task | Checksum: 1e234d8e6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1e234d8e6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.250 . Memory (MB): peak = 1316.594 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 161fe3f3d
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.357 . Memory (MB): peak = 1316.594 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1db7bbc34
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.416 . Memory (MB): peak = 1316.594 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1db7bbc34
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.489 . Memory (MB): peak = 1316.594 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 158ee7f53
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.595 . Memory (MB): peak = 1316.594 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 6 Constant propagation | Checksum: 158ee7f53
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.653 . Memory (MB): peak = 1316.594 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 7 Sweep
+Phase 7 Sweep | Checksum: 158ee7f53
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.682 . Memory (MB): peak = 1316.594 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 8 Resynthesis
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-74] Optimized 1 modules.
+INFO: [Opt 31-75] Optimized module 'core'.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 8 Resynthesis | Checksum: 25012ce1b
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1316.594 ; gain = 0.000
+INFO: [Opt 31-389] Phase Resynthesis created 928 cells and removed 935 cells
+
+Phase 9 Post Processing Netlist
+Phase 9 Post Processing Netlist | Checksum: 25012ce1b
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1316.594 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1316.594 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 18bd88253
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 18bd88253
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 18bd88253
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1316.594 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+25 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1316.594 ; gain = 0.000
+# place_design
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1316.594 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: f8d942dc
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 1316.594 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1a9e8ce97
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 20a9f2005
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 20a9f2005
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1316.594 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 20a9f2005
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 20a9f2005
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1316.594 ; gain = 0.000
+WARNING: [Place 46-29] place_design is not in timing mode. Skip physical synthesis in placer
+Phase 2 Global Placement | Checksum: 1e0321167
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1e0321167
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 155eaf53f
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1d40ff407
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1d40ff407
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 20e416360
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 20e416360
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 20e416360
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1316.594 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 20e416360
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 4.1 Post Commit Optimization | Checksum: 20e416360
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 20e416360
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 20e416360
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1316.594 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 17ec859c9
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1316.594 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 17ec859c9
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1316.594 ; gain = 0.000
+Ending Placer Task | Checksum: 11c5e8603
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1316.594 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1316.594 ; gain = 0.000
+# phys_opt_design
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Vivado_Tcl 4-235] No timing constraint found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+3 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+# file mkdir $outputDir/place
+# file mkdir $outputDir/place/reports
+# write_checkpoint -force $outputDir/place/post_place
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.273 . Memory (MB): peak = 1316.594 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/RISC-V/risc-v-core/FPGA_Implementation/out/FPGA_core/place/post_place.dcp' has been generated.
+# report_timing_summary -file $outputDir/place/reports/post_place_timing_summary.rpt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+# route_design
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: b1ecd0e4 ConstDB: 0 ShapeSum: 6a71b51f RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: a7886a7a
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1403.445 ; gain = 86.852
+Post Restoration Checksum: NetGraph: 9df5678b NumContArr: 99302ef Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+INFO: [Route 35-64] No timing constraints were detected. The router will operate in resource-optimization mode.
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: a7886a7a
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1410.973 ; gain = 94.379
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: a7886a7a
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1410.973 ; gain = 94.379
+ Number of Nodes with overlaps = 0
+Phase 2 Router Initialization | Checksum: 14902cc1d
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1425.605 ; gain = 109.012
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 87036e1a
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1425.605 ; gain = 109.012
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 237
+ Number of Nodes with overlaps = 0
+Phase 4.1 Global Iteration 0 | Checksum: 10e4e8c15
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 1425.605 ; gain = 109.012
+Phase 4 Rip-up And Reroute | Checksum: 10e4e8c15
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 1425.605 ; gain = 109.012
+
+Phase 5 Delay and Skew Optimization
+Phase 5 Delay and Skew Optimization | Checksum: 10e4e8c15
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 1425.605 ; gain = 109.012
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+Phase 6.1 Hold Fix Iter | Checksum: 10e4e8c15
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 1425.605 ; gain = 109.012
+Phase 6 Post Hold Fix | Checksum: 10e4e8c15
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 1425.605 ; gain = 109.012
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.400694 %
+  Global Horizontal Routing Utilization  = 0.522988 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 36.036%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 32.4324%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 35.2941%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 42.6471%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: 10e4e8c15
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 1425.605 ; gain = 109.012
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 10e4e8c15
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 1425.605 ; gain = 109.012
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1094412b9
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 1425.605 ; gain = 109.012
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:29 . Memory (MB): peak = 1425.605 ; gain = 109.012
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:30 . Memory (MB): peak = 1425.605 ; gain = 109.012
+# file mkdir $outputDir/route
+# file mkdir $outputDir/route/reports
+# write_checkpoint -force $outputDir/route/post_route
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.319 . Memory (MB): peak = 1427.078 ; gain = 1.473
+INFO: [Common 17-1381] The checkpoint 'D:/RISC-V/risc-v-core/FPGA_Implementation/out/FPGA_core/route/post_route.dcp' has been generated.
+# report_timing_summary -file $outputDir/route/reports/post_route_timing_summary.rpt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+# report_timing -sort_by group -max_paths 100 -path_type summary -file 	$outputDir/route/reports/post_route_timing.rpt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 100 -nworst 1 -delay_type max -sort_by group.
+# report_clock_utilization -file $outputDir/route/reports/clock_util.rpt
+# report_utilization -file $outputDir/route/reports/post_route_util.rpt
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.299 . Memory (MB): peak = 1427.078 ; gain = 0.000
+# report_power -file $outputDir/route/reports/post_route_power.rpt
+Command: report_power -file ./out/FPGA_core/route/reports/post_route_power.rpt
+WARNING: [Power 33-232] No user defined clocks were found in the design!
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+0 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+# report_drc -file $outputDir/route/reports/post_imp_drc.rpt
+Command: report_drc -file ./out/FPGA_core/route/reports/post_imp_drc.rpt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/RISC-V/risc-v-core/FPGA_Implementation/out/FPGA_core/route/reports/post_imp_drc.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1447.594 ; gain = 0.719
+# write_verilog -force $outputDir/fpga_impl_netlist.v
+# write_xdc -no_fixed_only -force $outputDir/fpga_impl.xdc
+# write_bitstream -force $outputDir/$design.bit
+Command: write_bitstream -force ./out/FPGA_core/mythcore_test.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC ZPS7-1] PS7 block required: The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./out/FPGA_core/mythcore_test.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+8 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1881.613 ; gain = 434.020
+# set met_timing "Met Timing Constrains: true"
+# set search "Timing constraints are not met."
+# set timing_report [open $outputDir/route/reports/post_route_timing_summary.rpt]
+# while {[gets $timing_report data] != -1} {
+#     if {[string match *[string toupper $search]* [string toupper $data]] } {
+# 		set met_timing "Met Timing Constrains: false"
+# 		set fid [open Vivado/out/status.txt w]
+# 		puts $fid "false" 
+# 		close $fid
+#     } else {
+# 
+#     }
+#  }
+# close $timing_report
+# puts $met_timing
+Met Timing Constrains: true
+# set search_util "Slice LUTs"
+# set util_report [open $outputDir/route/reports/post_route_util.rpt]
+# while {[gets $util_report data] != -1} {
+#     if {[string match *[string toupper $search_util]* [string toupper $data]] } {
+# 		set haha $data
+#     } else {
+#     }
+#  }
+# close $util_report
+# set theWords [regexp -all -inline {\S+} $haha]
+# puts $haha
+| Slice LUTs                 |  837 |     0 |     53200 |  1.57 |
+# puts [lindex $theWords 4]
+837
+# open_hw
+# connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+# open_hw_target
+ERROR: [Labtoolstcl 44-469] There is no current hw_target.
+INFO: [Common 17-206] Exiting Vivado at Wed Sep  8 01:50:47 2021...

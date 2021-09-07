@@ -1,0 +1,200 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Sep  8 01:50:12 2021
+| Host         : shriharipc running 64-bit major release  (build 9200)
+| Command      : report_timing -sort_by group -max_paths 100 -path_type summary -file ./out/FPGA_core/route/reports/post_route_timing.rpt
+| Design       : core
+| Device       : 7z020-clg484
+| Speed File   : -1  PRODUCTION 1.11 2014-09-11
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Startpoint                     Endpoint                       Slack(ns)     
+----------------------------------------------------------------------------
+CPU_rs2_a2_reg[2]/C            CPU_src2_value_a3_reg[0]/D     inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[27].CPU_Xreg_value_a4_reg[27][24]/CE
+                                                              inf           
+CPU_rs2_a2_reg[2]/C            CPU_src2_value_a3_reg[1]/D     inf           
+CPU_rs2_a2_reg[0]_rep/C        CPU_src2_value_a3_reg[19]/D    inf           
+CPU_rs2_a2_reg[2]/C            CPU_src2_value_a3_reg[6]/D     inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[31].CPU_Xreg_value_a4_reg[31][22]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[31].CPU_Xreg_value_a4_reg[31][24]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[31].CPU_Xreg_value_a4_reg[31][25]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[31].CPU_Xreg_value_a4_reg[31][27]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[31].CPU_Xreg_value_a4_reg[31][28]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[31].CPU_Xreg_value_a4_reg[31][29]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[31].CPU_Xreg_value_a4_reg[31][31]/CE
+                                                              inf           
+CPU_rs2_a2_reg[2]/C            CPU_src2_value_a3_reg[15]/D    inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[7].CPU_Xreg_value_a4_reg[7][18]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[9].CPU_Xreg_value_a4_reg[9][21]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][30]/CE
+                                                              inf           
+CPU_rs2_a2_reg[0]_rep/C        CPU_src2_value_a3_reg[16]/D    inf           
+CPU_src1_value_a3_reg[1]/C     L1gen_CPU_Xreg[17].CPU_Xreg_value_a4_reg[17][28]/D
+                                                              inf           
+CPU_rs2_a2_reg[0]_rep/C        CPU_src2_value_a3_reg[23]/D    inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[31].CPU_Xreg_value_a4_reg[31][21]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[10].CPU_Xreg_value_a4_reg[10][26]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[27].CPU_Xreg_value_a4_reg[27][21]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[27].CPU_Xreg_value_a4_reg[27][25]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[27].CPU_Xreg_value_a4_reg[27][26]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[27].CPU_Xreg_value_a4_reg[27][28]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[27].CPU_Xreg_value_a4_reg[27][29]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[27].CPU_Xreg_value_a4_reg[27][30]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[27].CPU_Xreg_value_a4_reg[27][31]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[10].CPU_Xreg_value_a4_reg[10][27]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[5].CPU_Xreg_value_a4_reg[5][21]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[11].CPU_Xreg_value_a4_reg[11][29]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[30].CPU_Xreg_value_a4_reg[30][21]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[30].CPU_Xreg_value_a4_reg[30][31]/CE
+                                                              inf           
+CPU_rs2_a2_reg[0]_rep/C        CPU_src2_value_a3_reg[17]/D    inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][19]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][20]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][22]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][23]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][27]/CE
+                                                              inf           
+CPU_rs2_a2_reg[2]/C            CPU_src2_value_a3_reg[3]/D     inf           
+CPU_rs2_a2_reg[0]_rep/C        CPU_src2_value_a3_reg[18]/D    inf           
+CPU_rs2_a2_reg[2]/C            CPU_src2_value_a3_reg[9]/D     inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[5].CPU_Xreg_value_a4_reg[5][31]/CE
+                                                              inf           
+CPU_src1_value_a3_reg[1]/C     L1gen_CPU_Xreg[6].CPU_Xreg_value_a4_reg[6][5]/D
+                                                              inf           
+CPU_src1_value_a3_reg[1]/C     L1gen_CPU_Xreg[31].CPU_Xreg_value_a4_reg[31][28]/D
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[31].CPU_Xreg_value_a4_reg[31][30]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[31].CPU_Xreg_value_a4_reg[31][26]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[3].CPU_Xreg_value_a4_reg[3][21]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[3].CPU_Xreg_value_a4_reg[3][22]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[3].CPU_Xreg_value_a4_reg[3][24]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[3].CPU_Xreg_value_a4_reg[3][26]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[3].CPU_Xreg_value_a4_reg[3][28]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[3].CPU_Xreg_value_a4_reg[3][31]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[28].CPU_Xreg_value_a4_reg[28][27]/D
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[17].CPU_Xreg_value_a4_reg[17][30]/D
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[9].CPU_Xreg_value_a4_reg[9][28]/CE
+                                                              inf           
+CPU_rs2_a2_reg[2]/C            CPU_src2_value_a3_reg[21]/D    inf           
+CPU_rs2_a2_reg[1]/C            CPU_src2_value_a3_reg[20]/D    inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[30].CPU_Xreg_value_a4_reg[30][28]/CE
+                                                              inf           
+CPU_rs2_a2_reg[1]_rep/C        CPU_src2_value_a3_reg[27]/D    inf           
+CPU_rs2_a2_reg[1]_rep/C        CPU_src2_value_a3_reg[22]/D    inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][21]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][24]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][25]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][26]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][28]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][29]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][31]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[7].CPU_Xreg_value_a4_reg[7][20]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[7].CPU_Xreg_value_a4_reg[7][21]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[7].CPU_Xreg_value_a4_reg[7][22]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[7].CPU_Xreg_value_a4_reg[7][24]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[7].CPU_Xreg_value_a4_reg[7][26]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[7].CPU_Xreg_value_a4_reg[7][28]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[7].CPU_Xreg_value_a4_reg[7][31]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[11].CPU_Xreg_value_a4_reg[11][25]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[11].CPU_Xreg_value_a4_reg[11][27]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[11].CPU_Xreg_value_a4_reg[11][30]/CE
+                                                              inf           
+CPU_rs2_a2_reg[2]/C            CPU_src2_value_a3_reg[29]/D    inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[25].CPU_Xreg_value_a4_reg[25][28]/CE
+                                                              inf           
+CPU_src1_value_a3_reg[1]/C     L1gen_CPU_Xreg[22].CPU_Xreg_value_a4_reg[22][28]/D
+                                                              inf           
+CPU_src1_value_a3_reg[1]/C     L1gen_CPU_Xreg[23].CPU_Xreg_value_a4_reg[23][28]/D
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[29].CPU_Xreg_value_a4_reg[29][28]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[31].CPU_Xreg_value_a4_reg[31][30]/D
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[25].CPU_Xreg_value_a4_reg[25][30]/D
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[5].CPU_Xreg_value_a4_reg[5][24]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[17].CPU_Xreg_value_a4_reg[17][27]/D
+                                                              inf           
+CPU_src1_value_a3_reg[1]/C     L1gen_CPU_Xreg[26].CPU_Xreg_value_a4_reg[26][28]/D
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[13].CPU_Xreg_value_a4_reg[13][21]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[9].CPU_Xreg_value_a4_reg[9][24]/CE
+                                                              inf           
+CPU_src1_value_a3_reg[1]/C     L1gen_CPU_Xreg[12].CPU_Xreg_value_a4_reg[12][5]/D
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[28].CPU_Xreg_value_a4_reg[28][30]/D
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[5].CPU_Xreg_value_a4_reg[5][26]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[5].CPU_Xreg_value_a4_reg[5][28]/CE
+                                                              inf           
+CPU_rs2_a2_reg[2]/C            CPU_src2_value_a3_reg[24]/D    inf           
+CPU_rs2_a2_reg[2]/C            CPU_src2_value_a3_reg[7]/D     inf           
+CPU_src1_value_a3_reg[0]/C     L1gen_CPU_Xreg[29].CPU_Xreg_value_a4_reg[29][20]/D
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[30].CPU_Xreg_value_a4_reg[30][24]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[30].CPU_Xreg_value_a4_reg[30][26]/CE
+                                                              inf           
+CPU_valid_load_a4_reg/C        L1gen_CPU_Xreg[30].CPU_Xreg_value_a4_reg[30][29]/CE
+                                                              inf           
+
+
+
