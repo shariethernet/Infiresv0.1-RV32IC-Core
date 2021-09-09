@@ -43,7 +43,7 @@
 
 All the cores are written in TL-Verilog. These are relatively simple cores which can be used for learning a chip design flow from front-end to tape-out as well as applications that demand low-power and dosent require high performance. 
 
-Work In Progress - Development of Super-scalar cores 
+
 
 ### References
 - [RVMYTH Core]("https://www.vlsisystemdesign.com")
